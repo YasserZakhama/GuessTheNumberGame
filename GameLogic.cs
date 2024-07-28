@@ -21,7 +21,7 @@ public class NewBehaviourScript : MonoBehaviour
         if (isGameWon)
         {
             affich.text = "You WON! ay Guess a num between " + minValeur + " and " + (maxValeur - 1) +" mrr okhra";
-            isGameWon = true;
+            isGameWon = false;
         }
         else
         {
